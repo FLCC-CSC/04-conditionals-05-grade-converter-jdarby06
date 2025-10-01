@@ -19,7 +19,7 @@ print('===== Grade Converter =====')
 
 numerical_grade = int(input('Enter a numerical grade (1-100): '))
 
-if numerical_grade in range(0, 65):
+if numerical_grade in range(0, 65) or numerical_grade < 0:
     print('F')
 elif numerical_grade in range(65, 70):
     print('D')
@@ -27,7 +27,7 @@ elif numerical_grade in range(70, 80):
     print('C')
 elif numerical_grade in range(80, 90):
     print('B')
-elif numerical_grade in range(90, 100):
+elif numerical_grade in range(90, 101):
     print('A')
 elif numerical_grade >= 100:
     print('A+')
