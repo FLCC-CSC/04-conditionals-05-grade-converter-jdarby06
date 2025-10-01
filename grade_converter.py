@@ -29,7 +29,7 @@ elif numerical_grade in range(80, 90):
     print('B')
 elif numerical_grade in range(90, 100):
     print('A')
-elif numerical_grade in range (100, 1000):
+elif numerical_grade >= 100:
     print('A+')
 
 '''
